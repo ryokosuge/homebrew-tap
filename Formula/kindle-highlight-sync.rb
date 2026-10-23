@@ -1,17 +1,17 @@
 class KindleHighlightSync < Formula
   desc "Sync Kindle highlights and notes to a Notion Books database"
   homepage "https://github.com/ryokosuge/kindle-highlight-sync-cli"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ryokosuge/kindle-highlight-sync-cli/releases/download/v0.1.0/kindle-highlight-sync_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "0904015c6c10edbaaa3729cecdd022af19d5b0d78e7845c7fbad5ac0bd5fe5fb"
+      url "https://github.com/ryokosuge/kindle-highlight-sync-cli/releases/download/v0.1.1/kindle-highlight-sync_v0.1.1_darwin_arm64.tar.gz"
+      sha256 "11a1751cec170872b7994e0690e04469b571c0ee8b7c9c4577b0317be51d8c64"
     end
     on_intel do
-      url "https://github.com/ryokosuge/kindle-highlight-sync-cli/releases/download/v0.1.0/kindle-highlight-sync_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "eb0afd39dffb1d0fb971b1dfa4d28255f1fc45aa095e93bcff63b6c7156fde96"
+      url "https://github.com/ryokosuge/kindle-highlight-sync-cli/releases/download/v0.1.1/kindle-highlight-sync_v0.1.1_darwin_amd64.tar.gz"
+      sha256 "c8875e5c3b18dae63ff73cc273ba75536095a7fee59b5cb9ed0fbadb1a6d9093"
     end
   end
 
